@@ -1,3 +1,8 @@
 export interface SchemaResolverType {
-  hello: () => string;
+  books: () => BookType[];
+}
+
+export interface BookType {
+  id: string;
+  name: string;
 }
